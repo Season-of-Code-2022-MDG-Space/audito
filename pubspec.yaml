@@ -47,13 +47,13 @@ flutter:
   fonts:
     - family: Cabin
       fonts:
-        - asset: fonts/Cabin.ttf
+        - asset: assets/Cabin.ttf
     - family: Comfortaa
       fonts:
-        - asset: fonts/Comfortaa.ttf
+        - asset: assets/Comfortaa.ttf
     - family: Lato
       fonts:
-        - asset: fonts/Lato.ttf
+        - asset: assets/Lato.ttf
 
 
   assets:
