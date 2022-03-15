@@ -48,6 +48,7 @@ import 'package:test/utils/google_sign_in.dart';
 import '/utils/google_sign_in.dart';
 import '/screens/sign_in_screen.dart';
 import 'package:test/utils/routes.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 void main() {
   runApp(MyApp());

@@ -134,10 +134,10 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "flutter_launcher_icons",
-      "rootUri": "file:///C:/Users/Sanidhya%20Singh/Downloads/All%20Files/flutter_windows_2.10.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_launcher_icons-0.9.2",
+      "name": "flutter_native_splash",
+      "rootUri": "file:///C:/Users/Sanidhya%20Singh/Downloads/All%20Files/flutter_windows_2.10.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_native_splash-2.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.15"
     },
     {
       "name": "flutter_svg",
@@ -314,6 +314,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "universal_io",
+      "rootUri": "file:///C:/Users/Sanidhya%20Singh/Downloads/All%20Files/flutter_windows_2.10.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/universal_io-2.0.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "vector_math",
       "rootUri": "file:///C:/Users/Sanidhya%20Singh/Downloads/All%20Files/flutter_windows_2.10.1-stable/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.1.1",
       "packageUri": "lib/",
@@ -344,7 +350,7 @@
       "languageVersion": "2.15"
     }
   ],
-  "generated": "2022-03-15T08:58:04.072819Z",
+  "generated": "2022-03-15T10:52:18.885310Z",
   "generator": "pub",
   "generatorVersion": "2.16.1"
 }
