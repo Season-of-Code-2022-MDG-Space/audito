@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import '/screens/sign_in_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:test/screens/sign_in_screen.dart';
@@ -20,60 +21,45 @@ class SignInScreen extends StatefulWidget {
 class _SignInScreenState extends State<SignInScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.only(
-            left: 4.0,
-            right: 4.0,
-            bottom: 4.0,
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Row(),
-              Expanded(
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    SizedBox(height: 4),
-                    Text(
-                      'auito',
-                      style: TextStyle(
-                        color: Colors.amber,
-                        fontSize: 40,
-                        height: 8,
-                      ),
-                    ),
-                    Text(
-                      'Authentication',
-                      style: TextStyle(
-                        color: Colors.green,
-                        fontSize: 40,
-                        height: 8,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              FutureBuilder(
-                future: Authentication.initializeFirebase(context: context),
-                builder: (context, snapshot) {
-                  if (snapshot.hasError) {
-                    return Text('Error initializing Firebase');
-                  } else if (snapshot.connectionState == ConnectionState.done) {
-                    return GoogleSignInButton();
-                  }
-                  return CircularProgressIndicator(
-                    valueColor: AlwaysStoppedAnimation<Color>(
-                     Colors.amber,
-                    ),
-                  );
-                },
-              ),
-            ],
-          ),
+    return Material(
+      child: Container(
+        decoration: BoxDecoration(
+          color : Color.fromRGBO(223, 223, 223, 1),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            SizedBox(
+              height: 5,
+            ),
+            Text("auito", textAlign: TextAlign.center, style: TextStyle(fontSize: 24,color: Colors.black, fontFamily: 'Comfortaa'), ),
+            ClipRRect(
+                borderRadius: BorderRadius.circular(40),
+                child: Container(height:250, width:250,child: new Image.asset('./images/Image7.png'))),
+            Text("Lorem ipsum dolor sit \n amet, khinsectetur \n Manchester elit. Lacinia.", textAlign: TextAlign.center, style: TextStyle(fontSize: 28,color: Color.fromRGBO(0x4A,0x72,0xCC,100), fontFamily:'Cabin'), ),
+            SizedBox(
+              height: 15,
+            ),
+            FutureBuilder(
+              future: Authentication.initializeFirebase(context: context),
+              builder: (context, snapshot) {
+                if (snapshot.hasError) {
+                  return Text('Error initializing Firebase');
+                } else if (snapshot.connectionState == ConnectionState.done) {
+                  return GoogleSignInButton();
+                }
+                return CircularProgressIndicator(
+                  valueColor: AlwaysStoppedAnimation<Color>(
+                    Colors.amber,
+                  ),
+                );
+              },
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            SvgPicture.asset('images/LoadBar3of3.svg')
+          ],
         ),
       ),
     );
