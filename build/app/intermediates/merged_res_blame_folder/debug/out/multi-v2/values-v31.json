@@ -1,17 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Sanidhya Singh\\Downloads\\SOC Contents\\git_cloned\\auito\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v31\\values-v31.xml",
+            "outputFile": "C:\\Users\\Sanidhya\\StudioProjects\\auito\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v31\\values-v31.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Sanidhya Singh\\Downloads\\SOC Contents\\git_cloned\\auito\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
+                    "source": "C:\\Users\\Sanidhya\\StudioProjects\\auito\\android\\app\\src\\main\\res\\values-v31\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
-                        "startOffsets": "173,801",
+                        "startOffsets": "176,815",
                         "endLines": "7,16",
                         "endColumns": "12,12",
-                        "endOffsets": "450,965"
+                        "endOffsets": "457,981"
                     },
                     "to": {
                         "startLines": "2,7",

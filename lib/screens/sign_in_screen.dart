@@ -9,9 +9,9 @@ import '/screens/YT_embed.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // new
 import 'package:firebase_core/firebase_core.dart'; // new
 import 'package:provider/provider.dart';           // new
-import '/firebase_options.dart';                    // new
-import '/authentication.dart';
-import '/google_sign_in_button.dart';
+import '../Oauth/firebase_options.dart';                    // new
+import '../Oauth/authentication.dart';
+import '../Oauth/google_sign_in_button.dart';
 
 
 class SignInScreen extends StatefulWidget {

@@ -8,7 +8,7 @@ import '/screens/YT_embed.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // new
 import 'package:firebase_core/firebase_core.dart'; // new
 import 'package:provider/provider.dart';           // new
-import '/firebase_options.dart';                    // new
+import '../Oauth/firebase_options.dart';                    // new
 import 'package:test/utils/google_sign_in.dart';
 import '/utils/sign_out.dart';
 import '/screens/YT_embed.dart';
