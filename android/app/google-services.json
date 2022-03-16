@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178443886294",
+    "project_id": "auito-f4175",
+    "storage_bucket": "auito-f4175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178443886294:android:7bef6d64b392e14c70b377",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178443886294-6v8j964oskrt797cuiibh8hlmvvrsaa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQshe30PNDu8yESa-s0MM98GJy610uOnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178443886294-6v8j964oskrt797cuiibh8hlmvvrsaa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
