@@ -21,6 +21,8 @@ dependencies:
   google_sign_in: ^5.2.4
   flutter_svg: ^1.0.3
   flutter_native_splash: ^2.1.1
+  http: ^0.13.4
+  webview_flutter: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -58,3 +60,5 @@ flutter:
 
   assets:
     - images/
+    - lib/screens/moods/burnt_out/burnt_out_article_json.json
+    - lib/screens/moods/burnt_out/burnt_out_article_json.json

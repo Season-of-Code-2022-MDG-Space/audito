@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import '/screens/user_info_screen.dart';
+import '../screens/general/user_info_screen.dart';
 
 class Authentication {
   static Future<FirebaseApp> initializeFirebase(
