@@ -5,4 +5,5 @@ class MyRoutes {
   static String Second_intro="/second_intro_page";
   static String Interest_selection="/interest_selection";
   static String Moods_Screen="/moods_screen";
+  static String Burnt_Out="/burnt_out";
 }

@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:test/screens/sign_in_screen.dart';
+import 'package:test/screens/general/sign_in_screen.dart';
 import 'package:test/utils/routes.dart';
-import '/screens/YT_embed.dart';
+import '../screens/general/YT_embed.dart';
 import 'package:firebase_auth/firebase_auth.dart'; // new
 import 'package:firebase_core/firebase_core.dart'; // new
 import 'package:provider/provider.dart';           // new
